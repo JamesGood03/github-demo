@@ -1,0 +1,160 @@
+
+#box {
+background-color:#0E1821;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  Height:100px;
+  background-color:#0E1821;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width:150px;
+  background-image: url("http://127.0.0.1:3000/botanicallogo.png");
+  background-position: center;
+  height:100px
+
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+    width:10%;
+  padding-left: 2%;
+
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+    width:10%;
+
+
+}
+
+.flex-items:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+    width:10%;
+margin-right:40%;
+}
+
+.flex-items:nth-child(5) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-top: 2%;
+    width:8%;
+  height:100px;
+}
+
+.flex-items:nth-child(6) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-top: 2%;
+    width:8%;
+  height:100px;
+}
+
+#logo_img {
+width: 200px;
+Height: 120px;
+object-fit:cover;
+
+}
+
+#main_img{
+width:100%;
+object-fit:cover;
+}
+
+#container3 {
+  background-image: url('https://images.food52.com/YvZt9rROpaDppXrHYOiYLMcaiKw=/2016x1344/filters:format(webp)/7910b647-13ed-4144-bc0c-0fdc3020a0ac--2022-0916_sponsored_titos_kit-pear-ginger-sparkler_site_branded_3x2_julia-gartland_025.jpg');
+  width:100%;
+  Height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color:#EC7624;
+  font-family= "PT Serif";
+  font-size: 20px;
+}
+
+a:hover{
+  animation-duration: 1s;
+  animation-name: hover;
+border-bottom: solid 2px rgb(227, 160, 1) ;
+
+}
+
+h1{
+  font-family: helvetica ;
+  color: white;
+}
+
+h3{
+
+}
+
+p {
+
+}
+
+@keyframes hover {
+  0%   {border-bottom:none;}
+  100% {border-bottom: solid 2px rgb(227, 160, 1) ;}
+}
+
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  ;background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(227, 160, 1)
+}
