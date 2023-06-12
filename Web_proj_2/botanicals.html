@@ -2,6 +2,7 @@
 <html>
   <head>
     <link href='botanicals.css' rel='stylesheet' type='text/css'/>
+    <script defer src="botanical.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <title></title>
   </head>
@@ -9,32 +10,78 @@
   <body>
     <div id="box" class="flex-container">
       <div class="flex-items">  <a href="#Heading1"></a></div>
-      <div class="flex-items">  <a href="#Heading2">Range</a></div>
-      <div class="flex-items"><a href="#Heading3">Recipes</a></div>
-      <div class="flex-items">  <a href="#Heading4">Contact Us</a></div>
+      <div class="flex-items hover-underline-animation">  <a href="#Heading2">Range</a></div>
+      <div class="flex-items hover-underline-animation"><a href="#Heading3">Recipes</a></div>
+      <div class="flex-items hover-underline-animation">  <a href="#Heading4">Contact Us</a></div>
       <div class="flex-items">  <a href="#"><img id="main_img" src="http://127.0.0.1:3000/iconfinder-icon.svg"  /></a></div>
       <div class="flex-items">  <a href="#Heading4"><img id="main_img" src="http://127.0.0.1:3000/iconfinder-icon%20(1).svg"  /></a></div>
     </div>
 
-<div class="container3">
-  <h1>Fend off the alcoholic</h1>
-</div>
-
-    <div class="top-left">
-      <h4 id="Heading1">Who and what</h4>
-        <p class="p1">
-          Who and what
-          <br>
-          <br>
-        </p>
-        <h4 id="Heading2">What</h4>
-        <p class="p2">What
-          <br>
-          <br>
-        </p>
-        <h4 id="Heading3">how much and how</h4>
-        <p class="p3">how much and how</p>
+    <div class="container3">
+       <img src="https://images.food52.com/YvZt9rROpaDppXrHYOiYLMcaiKw=/2016x1344/filters:format(webp)/7910b647-13ed-4144-bc0c-0fdc3020a0ac--2022-0916_sponsored_titos_kit-pear-ginger-sparkler_site_branded_3x2_julia-gartland_025.jpg" alt="Snow" style="width:100%;">
+        <div class="center heading">Resolute against peer pressure</div>
+        <div class="description heading">While maintaining your sober commitment, through the finest non alcoholic drink.-Destill</div>
+        <div class="btnRange"><button id="btnRange">Range</button></div>
+        <div class="btnRecipes"><button id="btnRecipes">Recipes</button></div>
     </div>
+    <div class="products">
+      <div class="products-items"><br></br><img class='Products_img' src="https://cdn.shopify.com/s/files/1/0526/3356/7396/products/BD-HotCinnamon-750ml_400x.png?v=1679523387"><p>Bourbon</p></div>
+      <div class="products-items"><br></br><img class='Products_img' id="Spritz" src="https://ws23.lk/wp-content/uploads/2020/07/domaine-650x1024-removebg-preview.png"><p>Italian spritz</p></div>
+      <div class="products-items"><br></br><img class='Products_img' id="Vodka" src="https://images.squarespace-cdn.com/content/v1/54ff95bae4b0d0db327c391d/1606857906649-EVJ1539T36VBUQQPNT3Z/Pickers+Blood+Orange+Vodka+%7C+Made+with+real+fruit+in+Nashville%2C+Tennessee"><p>Vodka</p></div>
+      <div class="products-break"></div>
+      <div class="products-items"><br></br><img class='Products_img' id="Brandy" src="https://static.xtrawine.com/Global/Images/XW/products/spirits/32269_SegnanaGrappaAltoRilievoInvecchiataInBottiDaWhisky_3.png"><p>Brandy</p></div>
+      <div class="products-items"><br></br><img class='Products_img' id="Prosseco" src="https://www.checkers.co.za/medias/10376998EA-checkers515Wx515H?context=bWFzdGVyfGltYWdlc3w4MDkwOXxpbWFnZS9wbmd8aW1hZ2VzL2g0NC9oMTcvOTcxMjcxODY0MzIzMC5wbmd8ZGQ0YTYzOWJkNmUxMWQ5ODIxMjIyZGZmNDQxYTlmOTkxYWQzMmIyNmNjODk4NDcxMjI3YTYxNWIxN2U5OTc5YQ"><p>Prosseco</p></div>
+      <div class="products-items"><br></br><img class='Products_img' id="Tequila" src="https://www.shortysliquor.com.au/media/catalog/product/cache/ac78fc9e5eceb7c26a07167b8a174443/t/r/tromba_reposado_tequila_750ml.png"><p>Tequila</p></div>
+    </div>
+    <div id='DESTILL-STORY'>
+      <div id='STORY'>
+    <H1>DESTILL'S STORY</h1>
+    <p id=STORY_text>Destill sarted as a small destillery in a garage, with a dream of great tasting non-alcoholic beverages. R.G Cunningham managed to make an outstanding non-alcoholic Bourbon. After this success he expanded his range, which is still being improved to this day.</p>
+    <br>
+    <p id=STORY_text>Destill is now based in Rondebosch, Cape Town. Reaching all over South Africa, without losing Cunningham's dream of excellence served non-alcoholic. Destill's recipes are ever growing thanks to more and more people sharing their favourites.</p>
+
+    <button id=STORY_button>MORE<button>
+    </div>
+    <img class="appear" id="STORY_img" src="https://st3.depositphotos.com/1507819/13340/v/450/depositphotos_133409614-stock-illustration-black-and-white-distillation-kit.jpg">
+    </div>
+    <div id='Reviews'>
+      <div id='Testimonials'>
+    <H1>DON'T TAKE OUR WORD FOR IT</h1>
+      <div class="Testimonials-container">
+         <div class="Testimonials-items arrival"><img class='Profile-pic' src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"><p class='T_Name'>Queenbee34</p><img class='Stars' src="https://cdn0.iconfinder.com/data/icons/star-ratings/100/four_half-512.png"><p class="Comment">Great Selection.</p></div>
+         <div class="Testimonials-items arrival"><img class='Profile-pic' src="https://pixlok.com/wp-content/uploads/2022/02/Profile-Icon-SVG-09856789.png"><p class='T_Name'>RogDog1</p><img class='Stars' src="https://static.thenounproject.com/png/1149723-200.png"><p class="Comment">Can't go wrong!</p></div>
+         <div class="Testimonials-items arrival"><img class='Profile-pic' src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"><p class='T_Name'>SamB</p><img class='Stars' src="https://static.thenounproject.com/png/1149720-200.png"><p class="Comment">Service was slick.</p></div>
+      </div>
+    </div>
+  </div>
+<div id ='benefits'>
+  <div class="Benefit-container">
+     <div class="Benefit-items"><img class='benfit-pic' src="https://cdn-icons-png.flaticon.com/128/3176/3176271.png"><p class="Benefit_Text">Award Wining</p></div>
+     <div class="Benefit-items"><img class='benfit-pic' src="https://cdn-icons-png.flaticon.com/128/684/684262.png"><p class="Benefit_Text">Low Calorie</p></div>
+     <div class="Benefit-items"><img class='benfit-pic' src="https://cdn-icons-png.flaticon.com/128/1970/1970966.png"><p class="Benefit_Text">Vegan</p></div>
+     <div class="Benefit-items"><img class='benfit-pic' src="https://cdn-icons-png.flaticon.com/128/4441/4441978.png"><p class="Benefit_Text">Non Alcoholic</p></div>
+</div>
+</div>
+<div id="Email_Subscription">
+
+    <div id='Email-2'>
+ <br>
+    <h1 class='Expand arrival'>EXPAND YOUR KNOWLEDGE</h1>
+  <h3>Join our news letter for new recipes, products and store locations. We'd love to keep in touch.</h3>
+    <br>
+  <input type="text" placeholder="Email">
+  <button id="btnJoin">JOIN</button>
+</div>
+</div>
+<footer>
+  <div class="footer-container">
+   <div class="footer-items"><p><b>Information</b></p><br><br><p2>About Us</p2><br><p2>Contact Us</p2></div>
+   <div class="footer-items"><p><b>Collection</b></p><br><br><p2>Range</p2><br><p2>Recipes</p2></div>
+   <div class="footer-items"><p><b>Other</b></p><br><br><p2>Store locator</p2><br><p2>My Account</p2></div>
+   <div class="footer-items"><p><b>Social Media</b></p><br><br><p2 id='Instagram'> Instagram </p2><p2>|</p2><p2 id='Facebook'> Facebook </p2><p2>|</p2><p2 id='Youtube'> Youtube </p2><p2>|</p2><p2 id='Twitter'> Twitter </p2></div>
+</div>
+</footer>
+</body>
 
 
 

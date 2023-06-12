@@ -1,3 +1,78 @@
+body{
+  background-color: black;
+  font-size: 0px;
+  display: block;
+}
+
+footer{
+  background-color: 	#232323;
+  height: 200px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  cursor: default;
+}
+
+.footer-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width:14%;
+  height:200px;
+  margin-right: 1%;
+  text-align: center;
+  color: #676767 !important;
+}
+
+.footer-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width:14%;
+  height:200px;
+    margin-right: 1%;
+    text-align: center;
+    color: #676767 !important;
+}
+
+.footer-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width:14%;
+  height:200px;
+    margin-right: 1%;
+    text-align: center;
+    color: #676767 !important;
+}
+
+.footer-items:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width:55%;
+  height:200px;
+  text-align: center;
+  color: #676767 !important;
+}
 
 #box {
 background-color:#0E1821;
@@ -12,6 +87,7 @@ background-color:#0E1821;
   align-content: stretch;
   Height:100px;
   background-color:#0E1821;
+  padding: none;
 }
 
 .flex-items:nth-child(1) {
@@ -24,7 +100,7 @@ background-color:#0E1821;
   width:150px;
   background-image: url("http://127.0.0.1:3000/botanicallogo.png");
   background-position: center;
-  height:100px
+  height:100px;
 
 }
 
@@ -35,7 +111,7 @@ background-color:#0E1821;
   flex-basis: auto;
   align-self: auto;
   order: 0;
-    width:10%;
+  width:10%;
   padding-left: 2%;
 
 }
@@ -47,8 +123,7 @@ background-color:#0E1821;
   flex-basis: auto;
   align-self: auto;
   order: 0;
-    width:10%;
-
+  width:10%;
 
 }
 
@@ -61,6 +136,7 @@ background-color:#0E1821;
   order: 0;
     width:10%;
 margin-right:40%;
+
 }
 
 .flex-items:nth-child(5) {
@@ -91,7 +167,6 @@ margin-right:40%;
 width: 200px;
 Height: 120px;
 object-fit:cover;
-
 }
 
 #main_img{
@@ -99,10 +174,506 @@ width:100%;
 object-fit:cover;
 }
 
+.heading{
+  animation: heading 1.5s ease 0s 1 normal forwards;
+}
+
 #container3 {
-  background-image: url('https://images.food52.com/YvZt9rROpaDppXrHYOiYLMcaiKw=/2016x1344/filters:format(webp)/7910b647-13ed-4144-bc0c-0fdc3020a0ac--2022-0916_sponsored_titos_kit-pear-ginger-sparkler_site_branded_3x2_julia-gartland_025.jpg');
   width:100%;
-  Height: 2000px;
+  height: 100vh;
+  background-size: cover;
+  object-fit:cover;
+  display:block;
+  background-position: center;
+}
+#Email_Subscription{
+  text-align: center;
+  background-color: #16251b;
+background-image: url("https://static1.squarespace.com/static/55c50b46e4b0d9f7e7fe0588/568895c50e4c11c9349c356a/5e6411f24f3cd622ab5a26d0/1583775684915/bartender-at-large-montreal-jeff-frenette-photography-6.jpeg?format=1500w");
+background-blend-mode: color-dodge;
+height: 400px;
+color:white;
+font-family: helvetica ;
+display: block;
+}
+#Email-2 {
+  height: 200px;
+padding-top: 100px;
+
+}
+
+.Expand{
+  width:500px;
+  Height:40px;
+  margin-left: 31%;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  height: 800px;
+  background-color: #0f1a13;
+  font-weight: bold;
+}
+.products-items{
+  background-color: #5f7155;
+  border-style: solid;
+  border-color: #889e76;
+  border-width: 2px;
+  Width:300px;
+  flex-basis: 0%;
+  align-self: center;
+  text-align: center;
+  color: #0E1821;
+
+}
+.products-items:nth-child(1) {
+  text-align: center;
+  display: block;
+  flex-grow: 1;
+height:300px;
+flex-basis: 0%;
+  align-self: center;
+  margin-left: 300px;
+  margin-top: 70px;
+  order: 1;
+
+}
+
+.products-items:nth-child(2) {
+margin-left: 20px;
+margin-top: 70px;
+  display: block;
+  flex-grow: 1;
+  height:300px;
+flex-basis: 0%;
+  order: 2;
+}
+
+.products-items:nth-child(3) {
+  display: block;
+  flex-grow: 1;
+height:300px;
+margin-left: 20px;
+margin-right:300px;
+margin-top: 70px;
+flex-basis: 0%;
+  order: 3;
+}
+
+.products-break:nth-child(4) {
+  width: 100%;
+  flex-basis: 100%;
+  align-self: center;
+  order: 4;
+}
+
+.products-items:nth-child(5) {
+  display: block;
+  flex-grow: 1;
+  margin-left: 300px;
+height:300px;
+margin-bottom: 70px;
+flex-basis: 0%;
+  order: 5;
+}
+
+.products-items:nth-child(6) {
+
+  display: block;
+  flex-grow: 1;
+height:300px;
+margin-left: 20px;
+margin-bottom: 70px;
+flex-basis: 0%;
+  order: 6;
+}
+
+.products-items:nth-child(7) {
+  display: block;
+  flex-grow: 1;
+height:300px;
+margin-left: 20px;
+margin-right:300px;
+margin-bottom: 70px;
+flex-basis: 0%;
+  order: 7;
+}
+
+.Products_img {
+  height:200px;
+  width:120px;
+  margin-top: 40px;
+}
+
+#Spritz{
+  height:201px;
+  width:165px;
+
+}
+
+#Vodka{
+  height:200px;
+  width:90px;
+}
+
+#Prosseco {
+  height:200px;
+  width:220px;
+}
+
+#Brandy{
+  height:200px;
+  width:55px;
+}
+
+#Tequila{
+  height:200px;
+  width:200px;
+}
+
+#DESTILL-STORY{
+  margin-top: 100px;
+  background-color:black ;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpNlBXEvJyTElx6h8m2pyB_IoOKiJjA9pCHw&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: color-burn;
+  height: 700px;
+}
+ #STORY{
+   margin-top: 70px;
+   position: absolute;
+   margin-left: 55%;
+   margin-right: 90px;
+ }
+
+ #STORY_img{
+   position: absolute;
+ }
+
+ .appear {
+   transition: all 0.8s;
+   opacity: 0;
+   transform: translateY(40px);
+ }
+
+ .appear.inview {
+   opacity: 1;
+   transform: none;
+   transition-delay: 0.3s;
+ }
+
+ .arrival {
+   transition: all 0.8s;
+   opacity: 0;
+   transform: translateX(40px);
+ }
+
+ .arrival.show {
+   opacity: 1;
+   transform: none;
+ }
+
+ .arrival.show:nth-child(1) {
+   transition-delay: 0.1s;
+ }
+
+ .arrival.show:nth-child(2) {
+   transition-delay: 0.2s;
+ }
+
+ .arrival.show:nth-child(3) {
+    transition-delay: 0.3s;
+ }
+
+ #STORY_text{
+   color:white;
+   font-size: 18px;
+ }
+
+ #STORY_button{
+   border-color: white;
+   border-width: 1px;
+   cursor: pointer;
+   background-color:black;
+   font-family: helvetica ;
+   color: white;
+   font-size: 19px;
+   position: absolute;
+   height: 18%;
+   width:26%;
+ }
+#Reviews{
+  Height:650px;
+  background-color: #151c1c;
+  text-align: center;
+}
+#Testimonials{
+  padding-top: 50px;
+}
+
+.Testimonials-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.Testimonials-items:nth-child(1) {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height:360px;
+  width:240px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: #515c46;
+}
+
+.Testimonials-items:nth-child(2) {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height:360px;
+  width:240px;
+  margin-top: 20px;
+  background-color: #515c46;
+}
+
+.Testimonials-items:nth-child(3) {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height:360px;
+  width:240px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #515c46;
+}
+
+.Profile-pic{
+  padding-top: 20px;
+  width:150px;
+  Height:150px;
+  background-color: #515c46;
+}
+
+.T_Name{
+  font-weight: bold;
+  color: black;
+}
+
+.Stars{
+  width:80px;
+  Height:80px;
+}
+
+.Comment{
+  color: black;
+}
+.center {
+  position: absolute;
+  top: 44%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  font-family: helvetica ;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.description {
+  position: absolute;
+  top: 52%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  font-family: helvetica ;
+  color: white;
+  font-size: 19px;
+}
+
+#benefits{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0f1a13;
+}
+
+.Benefit-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.Benefit-items:nth-child(1) {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height:130px;
+  width:130px;
+  margin-right: 20px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.Benefit-items:nth-child(2) {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height:130px;
+  width:130px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.Benefit-items:nth-child(3) {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height:130px;
+  width:130px;
+  margin-left: 20px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.Benefit-items:nth-child(4) {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  height:130px;
+  width:130px;
+  margin-left: 20px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.benfit-pic{
+height: 60px ;
+width: 60px;
+}
+
+.btnRange {
+  position: absolute;
+  top: 125%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+ height: 8%;
+ width:10%;
+}
+.btnRecipes {
+  position: absolute;
+  top: 125%;
+  left: 36.5%;
+  transform: translate(-50%, -50%);
+ background-size: cover;
+  height: 8%;
+  width:10%;
+}
+
+#btnRange {
+border-color: white;
+cursor: pointer;
+  display: block;
+width: 100%;
+Height:100%;
+overflow: none;
+font-family: helvetica ;
+color: white;
+font-size: 19px;
+background-image: url("https://images.food52.com/YvZt9rROpaDppXrHYOiYLMcaiKw=/2016x1344/filters:format(webp)/7910b647-13ed-4144-bc0c-0fdc3020a0ac--2022-0916_sponsored_titos_kit-pear-ginger-sparkler_site_branded_3x2_julia-gartland_025.jpg");
+background-position: 63% 75.75%;
+}
+
+#btnRecipes{
+border-color: white;
+cursor: pointer;
+  display: block;
+width: 100%;
+Height:100%;
+overflow: none;
+font-family: helvetica ;
+color: white;
+font-size: 19px;
+background-image: url("https://images.food52.com/YvZt9rROpaDppXrHYOiYLMcaiKw=/2016x1344/filters:format(webp)/7910b647-13ed-4144-bc0c-0fdc3020a0ac--2022-0916_sponsored_titos_kit-pear-ginger-sparkler_site_branded_3x2_julia-gartland_025.jpg");
+background-position: 36.5% 75.5%;
+
+}
+
+
+
+#btnJoin {
+border-color: white;
+border-width: 2px;
+cursor: pointer;
+background-color:#0E1821;
+font-family: helvetica ;
+color: white;
+font-size: 19px;
+position: absolute;
+height: 7.60%;
+width:10%;
+left:800px;
+top: 3705px;
 }
 
 a {
@@ -113,30 +684,175 @@ a {
   font-size: 20px;
 }
 
-a:hover{
-  animation-duration: 1s;
-  animation-name: hover;
-border-bottom: solid 2px rgb(227, 160, 1) ;
 
+.products-items:hover{
+  cursor:pointer;
+  transition: 0.6s;
+  border-color: white;
+  flex-basis: 5%;
+  color:#0E1821;
+  text-decoration: underline;
 }
+
+button:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  transition: all 0.4s, opacity 0.1s 0.4s;
+  opacity: 0;
+}
+
+button:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  transition: all 0.4s, opacity 0.1s 0.4s;
+  opacity: 0;
+}
+
+button:hover:after, button:hover:before {
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  transition: all 0.4s, opacity 0.1s;
+  opacity: 1;
+}
+#btnJoin:before {
+    content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: #black;
+  color:white;
+  transition: all 0.4s, opacity 0.1s 0.4s;
+  opacity: 0;
+}
+
+#btnJoin:after {
+    content: 'JOIN';
+    text-align: center;
+    font-weight: bold;
+    padding-top:10px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: #black;
+  color:white;
+  transition: all 0.4s, opacity 0.1s 0.4s;
+  opacity: 0;
+}
+
+#btnJoin:hover:after, #btnJoin:hover:before {
+  width: calc(99%);
+  height: calc(77%);
+  background-color: black;
+  transition: all 0.4s, opacity 0.1s;
+  opacity: 1;
+}
+
+#Instagram:hover{
+  background-color: #e0456c;
+  color:white;
+  font-size: 18px;
+}
+
+#Facebook:hover{
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+}
+
+#Youtube:hover{
+  background-color: red;
+  font-size: 18px;
+}
+
+#Twitter:hover{
+  background-color: #45aae0;
+  color: white;
+  font-size: 18px;
+}
+
+input{
+  height:41.5px;
+  width: 370px;
+  position: relative;
+  right:70px;
+  border-color: white;
+}
+
+
 
 h1{
   font-family: helvetica ;
   color: white;
+  font-size: 30px;
 }
 
 h3{
-
+font-size:18px;
 }
 
-p {
-
+p{
+  font-size: 18px;
 }
 
-@keyframes hover {
-  0%   {border-bottom:none;}
-  100% {border-bottom: solid 2px rgb(227, 160, 1) ;}
+p2:hover{
+color:white;
+transition: 0.5s;
+cursor: pointer;
 }
+
+a{
+  display: inline-block;
+  position: relative;
+  color: #EC7624;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #EC7624;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@keyframes hover2 {
+  0%   {background-image: none;}
+  1%  {background-color: black;}
+  3% {background-color: #0E1821;}
+  99% {background-color: #0E1821;}
+  100%   {background-image: none;}
+}
+
+@keyframes heading {
+  0% {clip-path: polygon(0 0, 4% 96%, 100% 100%, 0% 100%);}
+ 100%{clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);}
+}
+
 
 /*scrollbar*/
 /* width */
@@ -156,5 +872,5 @@ p {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(227, 160, 1)
+  background: #EC7624;
 }
