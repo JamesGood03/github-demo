@@ -311,7 +311,7 @@ flex-basis: 0%;
 
 #Spritz{
   height:201px;
-  width:165px;
+  width:230px;
 
 }
 
@@ -410,7 +410,10 @@ flex-basis: 0%;
 #Reviews{
   Height:650px;
   background-color: #151c1c;
+  background-image: url(./stacked-waves.svg);
   text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 #Testimonials{
   padding-top: 50px;
@@ -641,7 +644,7 @@ font-family: helvetica ;
 color: white;
 font-size: 19px;
 background-image: url("https://images.food52.com/YvZt9rROpaDppXrHYOiYLMcaiKw=/2016x1344/filters:format(webp)/7910b647-13ed-4144-bc0c-0fdc3020a0ac--2022-0916_sponsored_titos_kit-pear-ginger-sparkler_site_branded_3x2_julia-gartland_025.jpg");
-background-position: 63% 75.75%;
+background-position: 63% 75.25%;
 }
 
 #btnRecipes{
@@ -673,7 +676,7 @@ position: absolute;
 height: 7.60%;
 width:10%;
 left:800px;
-top: 3705px;
+top: 3699px;
 }
 
 a {
@@ -776,8 +779,15 @@ button:hover:after, button:hover:before {
 }
 
 #Youtube:hover{
-  background-color: red;
-  font-size: 18px;
+  background-color: red ;
+  font-size: 18px ;
+  color:white ;
+}
+
+#Youtube {
+color: #676767;
+font-size: 14px;
+font-weight: normal;
 }
 
 #Twitter:hover{
