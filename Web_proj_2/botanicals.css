@@ -98,7 +98,7 @@ background-color:#0E1821;
   align-self: auto;
   order: 0;
   width:150px;
-  background-image: url("http://127.0.0.1:3000/botanicallogo.png");
+  background-image: url("../botanicallogo.png");
   background-position: center;
   height:100px;
 
@@ -676,7 +676,7 @@ position: absolute;
 height: 7.60%;
 width:10%;
 left:800px;
-top: 3699px;
+top: 3705px;
 }
 
 a {
